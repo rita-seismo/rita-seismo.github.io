@@ -1,0 +1,23 @@
+/* 
+==============================
+Mobile Layout
+==============================
+*/
+@media only screen and (max-width: 991px) {
+  #arrow {
+    margin-top: -200px;
+  }
+  #mainNav {
+    background-color: white;
+  }
+  #mainNav .navbar-toggler {
+    color: black;
+    border-color: black;
+  }
+  .about-section {
+    background-color: transparent;
+  }
+  .publications-section {
+    background-color: transparent;
+  }
+}
