@@ -414,6 +414,46 @@ Lists
   transition: all 0.3s ease-in-out;
 }
 
+.presentations-list {
+  text-align: left;
+}
+
+.presentations-section-secondary {
+  margin-top: -10px;
+}
+
+.presentations-sublist {
+  margin-top: 0.6rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.presentations-sublist li {
+  margin-bottom: 0.45rem;
+}
+
+.publications-list {
+  text-align: left;
+}
+
+.publications-year {
+  margin: 1.6rem 0 0.85rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.btn-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.85rem;
+}
+
+.btn-links .btn {
+  margin: 0;
+}
+
 .arrow-circle:hover {
   background-color: #007bff; /* Change background on hover */
   color: white; /* Change icon color on hover */
@@ -614,7 +654,15 @@ Video Container
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  margin-left: -50px;
+  margin-left: 0;
+}
+
+.video-container iframe {
+  display: block;
+  width: min(100%, 560px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
 }
 /* 
 ==============================

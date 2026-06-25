@@ -36,6 +36,67 @@ Mobile Layout
 }
 
 @media only screen and (max-width: 768px) {
+  .publications-section {
+    margin-top: 80px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .publications-list {
+    padding-left: 1.1rem;
+  }
+
+  .publications-list li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .publications-year {
+    margin: 1.4rem 0 0.75rem;
+    font-size: 1.35rem;
+  }
+
+  .btn-links {
+    gap: 0.45rem;
+    margin-top: 0.75rem;
+  }
+
+  .btn-links .btn {
+    padding: 0.32rem 0.65rem;
+    font-size: 0.78rem;
+    line-height: 1.2;
+  }
+
+  .presentations-section-secondary {
+    margin-top: 0;
+  }
+
+  .presentations-list {
+    padding-left: 1.1rem;
+  }
+
+  .presentations-list li {
+    margin-bottom: 0.9rem;
+    line-height: 1.45;
+  }
+
+  .presentations-sublist {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .presentations-sublist li {
+    margin-bottom: 0.6rem;
+  }
+
+  .video-container {
+    margin: 0.75rem 0 1.25rem;
+  }
+
+  .video-container iframe {
+    width: 100%;
+  }
+
   .map-scroll {
     overflow-x: auto;
     overflow-y: hidden;
