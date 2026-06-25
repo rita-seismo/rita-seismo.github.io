@@ -20,4 +20,58 @@ Mobile Layout
   .publications-section {
     background-color: transparent;
   }
+  .research-header {
+    margin-top: 80px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .research-menu {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .research-section-heading {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .map-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pinch-zoom;
+  }
+
+  .map-scroll .map {
+    min-width: 680px;
+  }
+
+  .fieldwork-legend {
+    left: 8px;
+    bottom: 8px;
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  .fieldwork-legend-title {
+    margin: 0 0 6px;
+    font-size: 0.72rem;
+  }
+
+  .fieldwork-legend-item {
+    gap: 6px;
+    font-size: 0.66rem;
+    line-height: 1.15;
+  }
+
+  .fieldwork-legend-item + .fieldwork-legend-item {
+    margin-top: 4px;
+  }
+
+  .fieldwork-legend-swatch {
+    width: 13px;
+    height: 13px;
+    flex: 0 0 13px;
+  }
 }
