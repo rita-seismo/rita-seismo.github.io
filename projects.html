@@ -37,100 +37,245 @@
     </nav>
 
     <!-- Project Cards -->
-    <div class="card-container" id="projects">
-        <div class="card">
-            <img src="./img/projects/Turkana.png">
-            <div class="card-content">
-                <h3>Continental Rifting and Plume-Lithosphere Interactions</h3>
-                <p> Precisely how continental plates rift apart to form new oceans is debated because there 
-                    are few places on Earth where this process is currently active. One such region is the 3000 km-long 
-                    East African Rift, where narrow rift valleys cut through the uplifted Ethiopian and Kenyan Plateaus – 
-                    the highest topographical points on the African continent. This project focuses on an intriguing and 
-                    largely unexplored segment of the rift – the Turkana Depression. This region stands out in East Africa 
-                    due to its unusual breadth, low elevation, and unique history as the host of a previous failed rift 
-                    system through which the East African Rift subsequently developed. The Turkana Rift Investigating 
-                    Lithospheric Structure (TRAILS) project was set-up to investigate the crustal and mantle seismic 
-                    structure in the Depression.
-                </p>
+    <div id="projects">
+        <section class="text-start content-section">
+            <div class="container">
+                <div class="about-section row col-lg-10 mx-auto py-5 px-4 research-header">
+                    <div class="col-md-12 research-menu">
+                        <div>
+                            <h1 class="pb-2 mb-0">Research Interests</h1>
+                            <p class="research-intro mb-0">My research uses seismology to explore how crustal and mantle structure influence tectonic, 
+                                magmatic, and volcanic processes. Here you can browse both the key scientific themes I work on and the seismic methods I use to investigate them.</p>
+                            <div class="research-nav-buttons" role="tablist" aria-label="Research filters">
+                                <button class="research-nav-button is-active" type="button" data-filter="all" aria-pressed="true">ALL</button>
+                                <button class="research-nav-button" type="button" data-filter="themes" aria-pressed="false">THEMES</button>
+                                <button class="research-nav-button" type="button" data-filter="methods" aria-pressed="false">METHODS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                
-                <a href="https://doi.org/10.1038/s41586-025-09668-7" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+        <section class="text-start content-section research-subsection research-cards-block" id="research-cards">
+            <div class="card-container research-card-container">
+                        <div class="card" data-filter-item="themes">
+                            <img src="./img/projects/Rifting.png">
+                            <div class="card-content">
+                                <h3>Continental Rifting & Flood-Basalt Provinces</h3>
+                                <p> Continental Flood-Basalt Provinces are among the largest volcanic events in Earth's history. They rapidly erupt enormous volumes of 
+                                    magma and often trigger the break-up of continents. Precisely how continental plates rift apart to form new oceans is debated 
+                                    because there are few places on Earth where this process is currently active. One such region is the East African Rift, where narrow 
+                                    rift valleys cut through the uplifted Ethiopian and Kenyan Plateaus. Lithospheric thin zones, 
+                                    such as recently failed rifts, are generally assumed to be weak
+                                    spots where magmatism and deformation can concentrate during rifting and flood-basalt provice development. However, by probing the 
+                                    lithospheric structure of the Turkana Depression in East Africa, we instead find that areas stretched by past rifting, are actually stronger, not weaker 
+                                    and may thus be more resistant to rifting and magmatism.
+                                </p>
+                                <a href="https://doi.org/10.1038/s41586-025-09668-7" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                            </div>
+                        </div>
+                        <div class="card" data-filter-item="themes">
+                            <img src="./img/projects/Subduction.png">
+                            <div class="card-content">
+                                <h3>Subduction Zones</h3>
+                                <p> Subduction zones are among the most dynamic tectonic settings on Earth, where oceanic lithosphere sinks into the mantle, driving volcanism, uplift and 
+                                    mountain building on the overriding plate. Using seismic tomography I have explored how subducting slabs fragment, and ultimately detach during 
+                                    terminal-stage subduction below the Eastern Mediterranean, providing new insights into slab break-off, lithospheric delamination, and the links between deep Earth processes and 
+                                    surface tectonics. I also invesitaged the influence of a subducting slab on mantle flow beneath Alaska.
+                                </p>
+                                <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GC009009" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                            </div>
+                        </div>
+                        <div class="card" data-filter-item="themes">
+                            <img src="./img/projects/Orogenic.png">
+                            <div class="card-content">
+                                <h3>Cratons & Ancient Orogens </h3>
+                                <p> Cratons are the ancient and stable cores of continents, preserving a geological record spanning billions of years. The Copper Basin Exploration Science 
+                                    (CuBES) project involved the deployment of a 35-station broadband seismograph netowork across the late Proterozoic-ealy Paleozoic 
+                                    Central African Copperbelt and neighbouring Congo and Kalahari Craton margins. The data was used to image crustal and mantle structure 
+                                    using a variety of seismological techniques to constrain the region's tectonic evolution. I am also currently investigating the lithospheric structure
+                                    of the Uganda Craton which may have been thermally/magmatically modified by Cenozoic rifting/mantle plume interactions.
+                                </p>
+                                <a href="https://doi.org/10.1093/gji/ggae345" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                            </div>
+                        </div>
+                        <div class="card" data-filter-item="themes">
+                            <img src="./img/projects/Volcano.jpg">
+                            <div class="card-content">
+                                <h3>Volcano Seismology </h3>
+                                <p> Volcano seismology can provide valuable insights into the movement of magma and hydrothermal fluids beneath active volcanoes. 
+                                    My research uses passive seismic techniques, including modern earthquake detection and imaging techniques to investigate volcanic 
+                                    plumbing systems, magma migration, and crustal deformation below volcanoes in Montserrat and Costa Rica, and improve our 
+                                    understanding of volcanic processes.
+                                </p>
+                                <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GC008170" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                            </div>
+                        </div>
+                        <div class="card" data-filter-item="themes">
+                            <img src="./img/projects/Copper.png">
+                            <div class="card-content">
+                                <h3>Critical Metals </h3>
+                                <p> The global transition to low-carbon technologies depends on reliable supplies of critical metals such as copper, cobalt, nickel, 
+                                    and rare earth elements. Through the Copper Basin Exploration Science (CuBES) experiment, I investigate the lithospheric 
+                                    architecture that underpins the Central African Copperbelt&mdash;one of the world's most significant metallogenic provinces, using passive 
+                                    seismological techniques integrated with geological observations and other geophysical techniques.
+                                </p>
+                                <a href="https://doi.org/10.1093/gji/ggae345" class="btn">Read More </a>
+                            </div>
+                        </div>
+                        <div class="card" data-filter-item="themes">
+                            <img src="./img/projects/Geothermal.png">
+                            <div class="card-content">
+                                <h3>Geothermal Energy </h3>
+                                <p> Hydrothermal fluids found in active volcanoes and continental rifts have fantastic potential to provide a 
+                                    reliable source of geothermal power to local communities. In these regions, recordings from 
+                                    seismograph stations reveal earthquake swarms that accompany rock fractures during 
+                                    fluid migration. Monitoring seismicity is thus proven to be a powerful tool for 
+                                    understanding the behaviour of geothermal systems. In Montserrat and one of Zambia's most promising geothermal 
+                                    systems, we have utilized passive seismological deployments, using novel MEMS-based seismic nodes
+                                    to monitor seismicity, map permeable fracture networks, and characterise the region's tectonic stresses.
+                                </p>
+                                <a href="https://ui.adsabs.harvard.edu/abs/2024AGUFMS53C.3333K/abstract" class="btn">Read More </a>
+                            </div>
+                        </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/BW.png">
+                        <div class="card-content">
+                            <h3>Body-Wave Tomography </h3>
+                            <p> Body-waves from distant (teleseismic) earthquakes traverse the deep interior of the Earth
+                                en route to a seismograph station and allow imaging of mantle seismic structure via P- and S-wave 
+                                arrival-time tomography. Given known earthquake-station pairs, travel-times through the Earth can be predicted
+                                with remarkable accuracy using 1D reference Earth models. However, seismic energy does not always arrive precisely when expected. The difference
+                                between predicted and observed arrival-times&mdash;termed arrival-time residuals&mdash;reflect the wavespeed structure traversed along 
+                                earthquake-station paths. Recording these residuals on a collection of earthquake-station pairs across the globe allows for the construction of a 3D model of
+                                upper-mantle seismic structure below the seismograph network.
+                            </p>
+                            <a href="https://doi.org/10.1029/2021GC009782" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/SW.png">
+                        <div class="card-content">
+                            <h3>Surface-Wave Tomography </h3>
+                            <p> Surface-waves are high amplitude, low frequency, portions of a seismic wave that follow earthquake-station trajectories along the 
+                                Earth’s surface, mainly sampling crustal and uppermost mantle depths. Surface-wave tomography exploits the dispersive nature of these seismic waves,
+                                whereby seismic wave velocity varies with frequency (with lower frequencies traveling faster as they sample deeper in the Earth) and builds three-dimensional velocity
+                                models of the crust and upper mantle. Surface-wave tomography provides coverage at depths too shallow to be constrained by body-waves.
+                            </p>
+                            <a href="https://doi.org/10.1016/j.epsl.2023.118386" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/AFRP21.png">
+                        <div class="card-content"> 
+                            <h3>Absolute Arrival-Time Tomography </h3>
+                            <p> Absolute arrival-times allow us to more accurately assess the causes of seismic anomalies 
+                                and make more meaningful comparisons with other study areas by 
+                                benchmarking the residuals with respect to the global average arrival-time. Absolute first arrival times can be recovered
+                                by stacking cross-correlated and aligned waveforms across a seismic network and benchmarking against a reference model.
+                            </p>
+                            <a href="https://doi.org/10.1029/2022GC010775" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/RFs.png">
+                        <div class="card-content">
+                            <h3>Receiver Functions </h3>
+                            <p> Receiver function analysis isolates seismic waves that are converted at subsurface boundaries, allowing us to image 
+                                discontinuities within the crust and upper mantle. This method is widely used to determine crustal thickness, bulk-crustal Vp/Vs ratio,
+                                and depth of the lithosphere-asthenosphere boundary.
+                            </p>
+                            <a href="https://doi.org/10.1093/gji/ggaf083" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/JI.png">
+                        <div class="card-content">
+                            <h3>Joint Inversion </h3>
+                            <p> A joint inversion of complementary portions of the seismic wavefield, such as receiver functions and surface-waves, are a powerful tool
+                                for producing a detailed picture of velocity variation with depth at crustal and upper-mantle depths. Receiver functions are 
+                                sensitive to sharp velocity contrasts but lack information on absolute velocities&mdash;constraints with are instead provided by surface-waves.
+                            </p>
+                            <a href="https://doi.org/10.1038/s41586-025-09668-7" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/Splitting.png">
+                        <div class="card-content">
+                            <h3>Shear-Wave Splitting </h3>
+                            <p> When a shear-wave traverses an anisotropic medium it splits into two orthogonally polarised waves, one travelling faster than the other.
+                                This directional dependence allows for the evaluation of seismic anisotropy.
+                                The alignment of olivine in the mantle, melt-inclusions, or fault and fracture networks in the crust/lithosphere all give rise
+                                to anisotropy. We can thus assess lithospheric deformation associated with 
+                                both past and present tectonic events, revealing insights into the orientation, significance and depth extent of various phases of deformation.
+                            </p>
+                            <a href="https://doi.org/10.1093/gji/ggae345" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/EQ.png">
+                        <div class="card-content">
+                            <h3>Earthquake Detection & Location </h3>
+                            <p> Seismicity contrains present-day deformation patterns and crustal strength, and identifies permeable pathways (i.e., faults and fractures) 
+                                through which deep melts/fluids may be released to the surface. Continuous waveform data collected across Montserrat and Costa Rica 
+                                are inspected both manually and using machine-learning based automated workflows for earthquake detections across the networks. The detected
+                                events are then located using probabilistic algorithms.
+                            </p>
+                            <a href="https://doi.org/10.1093/gji/ggae345" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
+                    <div class="card" data-filter-item="methods">
+                        <img src="./img/projects/Field2.png">
+                        <div class="card-content">
+                            <h3>Field Deployments </h3>
+                            <p> Temporary deployments of seismograph stations are often a critical component of seismological research. These involve the installation of broadband instruments and dense nodal 
+                                seismometers that can record both teleseismic earthquakes and local microseismicity. I have been involved in deployments in Cyprus, Zambia, Kenya, Ethiopia, and Montserrat spanning
+                                several tectonic settings: subduction zones, cratons, rifts, and volcanoes.
+                            </p>
+                            <a href="fieldwork.html#fieldwork" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
+                        </div>
+                    </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="./img/projects/Anatolia4.png">
-            <div class="card-content">
-                <h3>Terminal-Stage Subduction Processes</h3>
-                <p> After protracted subduction, slabs ultimately detach and sink into the deep mantle, however the exact 
-                    processes at play are debated. The Eastern Mediterranean is a unique natural laboratory for terminal 
-                    subduction processes because it captures the transition from subduction of Earth's oldest oceanic lithosphere 
-                    in the west (below the Aegean), to collision-dominated convergence in the east (below eastern Anatolia). 
-                    Using the seismograms of distant earthquakes, we tomographically image mantle structure across the eastern 
-                    Mediterranean, illuminating an increasingly fragmenting slab and delaimated lithosphere from the overriding
-                    plate. Asthenospheric flow through slab gaps and a thinned Anatolian lithosphere both contribute
-                    to volcanism and and uplift across the entire region.
-                </p>
-                <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GC009009" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/projects/Alaska.jpg">
-            <div class="card-content">
-                <h3>Mantle Flow at Subduction Zones </h3>
-                <p> Shear-wave splitting measurements of seismic anisotropy at seismograph stations provide valuable insights into dominant 
-                    lithospheric fabrics and asthenospheric flow beneath a region. Applying this technique to the Alaskan Subduction Margin, 
-                    we find that variations in slab geometry control the azimuth and strength of the anisotropy, suggesting slab geometry plays
-                     a primary role in controlling mantle flow. Near the slab edge, highly variable anisotropic fast directions also strongly
-                     indicate the presence of torroidal flow.
-                </p>
-                <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GC008170" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/projects/AFRP21.png">
-            <div class="card-content">
-                <h3>Absolute Arrival-Time Tomography </h3>
-                <p> In this project, we developed P-wave tomographic models of the mantle below the entire African continent using absolute arrival-times.
-                    We used these models to explore the modification of cratonic lithosphere and the architecture of mantle plumes below
-                    East Africa.
-                </p>
-                <a href="https://doi.org/10.1029/2022GC010775" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/projects/Zambia2.png">
-            <div class="card-content">
-                <h3>Lithospheric Structure of Copper-Rich Regions </h3>
-                <p> The Copper Basin Exploration Science (CuBES) project involved the deployment of a 35-station broadband
-                    seismograph netowork to investigate the tectonic development of Central Africa - a region rich in critical 
-                    metal deposits (e.g., Copper, Nickel and Cobalt). Using passive seismological data recorded over an 
-                    18-month period, we image crustal and mantle structure using a variety of seismological techniques to 
-                    constrain the region's tectonic evolution.
-                </p>
-                <a href="https://doi.org/10.1093/gji/ggae345" class="btn" target="_blank" rel="noopener noreferrer">Read More </a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/projects/Geothermal.png">
-            <div class="card-content">
-                <h3>Geothermal Energy </h3>
-                <p> Hydrothermal fluids often found in continental rifts have fantastic potential to provide a 
-                    reliable source of geothermal power to local communities. In these regions, recordings from 
-                    seismograph stations often reveal earthquake swarms that accompany rock fractures during 
-                    fluid migration. Monitoring seismicity is thus proven to be a powerful tool for 
-                    understanding the behaviour of geothermal systems. In one of Zambia's most promising geothermal 
-                    systems, we have utilized passive seismological deployments, using novel MEMS-based seismic nodes
-                    to monitor seismicity, map permeable fracture networks, and characterize the tectonic stresses 
-                    shaping the region.
-                </p>
-                <a href="" class="btn">Read More </a>
-            </div>
-        </div>
+        </section>
     </div>
 
     <!-- Scripts -->
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/navbar.js"></script>
+    <script>
+        (function () {
+            const filterButtons = document.querySelectorAll('.research-nav-button[data-filter]');
+            const filterItems = document.querySelectorAll('[data-filter-item]');
+
+            if (!filterButtons.length || !filterItems.length) {
+                return;
+            }
+
+            function applyFilter(filterName) {
+                const activeFilter = filterName === 'themes' || filterName === 'methods' ? filterName : 'all';
+
+                filterButtons.forEach((button) => {
+                    const isActive = button.dataset.filter === activeFilter;
+                    button.classList.toggle('is-active', isActive);
+                    button.setAttribute('aria-pressed', String(isActive));
+                });
+
+                filterItems.forEach((item) => {
+                    const itemFilter = item.dataset.filterItem;
+                    item.hidden = activeFilter !== 'all' && itemFilter !== activeFilter;
+                });
+            }
+
+            filterButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    applyFilter(button.dataset.filter);
+                });
+            });
+
+            applyFilter('all');
+        }());
+    </script>
 </body>
 
 </html>

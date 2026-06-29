@@ -33,9 +33,26 @@ Mobile Layout
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+
+  .card-container.research-card-container {
+    column-width: 320px;
+    column-gap: 24px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .card-container.research-card-container {
+    column-count: 1;
+    column-width: auto;
+    column-gap: 0;
+  }
+
+  .research-card-container .card {
+    margin-bottom: 24px;
+  }
+
   .publications-section {
     margin-top: 80px;
     padding-left: 1rem !important;

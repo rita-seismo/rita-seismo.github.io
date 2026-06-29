@@ -183,12 +183,22 @@ Layout
   background-color: white;
   padding: 0.5rem 1rem;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .research-nav-button:hover,
 .research-nav-button:focus {
   background-color: #e0e0e0;
   color: black;
+}
+
+.research-nav-button.is-active {
+  background-color: black;
+  color: white;
+}
+
+.research-filter-group[hidden] {
+  display: none !important;
 }
 
 .research-subsection + .research-subsection {
@@ -341,6 +351,21 @@ Project card
 
 .card-container.research-card-container {
   margin-top: 0;
+  display: block;
+  column-width: 450px;
+  column-gap: 40px;
+  max-width: 1460px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research-card-container .card {
+  width: 100%;
+  margin: 0 0 40px;
+  display: inline-flex;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .card {
